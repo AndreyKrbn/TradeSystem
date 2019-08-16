@@ -11,7 +11,6 @@ import java.util.List;
 
 @Repository
 @Transactional
-//@Service("qwerty")
 @Component
 public class GoodServiceImpl implements GoodService {
 

@@ -1,3 +1,5 @@
+import com.company.Bean2;
+import com.company.GoodService;
 import com.company.GoodServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -6,12 +8,16 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
-@RunWith(SpringRunner.class)
-@ContextConfiguration(locations = "/META-INF/spring/app-context.xml")
+//@RunWith(SpringRunner.class)
+@ContextConfiguration(locations = "/META-INF/test-context.xml")
 class GoodServiceImplTest {
-//    @Resource(name="qwerty")
-    @Autowired
+
+
+   @Autowired
     private GoodServiceImpl goodServiceImpl;
+
+    @Autowired
+    private Bean2 bean2;
 
     @Test
     void findAll()
