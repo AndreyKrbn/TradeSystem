@@ -17,18 +17,18 @@ public class GoodServiceImpl implements GoodService {
     @Autowired
     private GoodRepository goodRepository;
 
-    @Override
+
     @Transactional(readOnly=true)
     public List<Good> findAll() {
         return Lists.newArrayList(goodRepository.findAll());
     }
 
-    @Override
+
     public Good findById(Long id) {
         return goodRepository.findOne(id);
     }
 
-    @Override
+
     public Good save(Good good) {
         return goodRepository.save(good);
     }

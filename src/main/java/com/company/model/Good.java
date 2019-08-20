@@ -1,7 +1,6 @@
 package com.company.model;
 
 import javax.persistence.*;
-
 import java.io.Serializable;
 
 import static javax.persistence.GenerationType.IDENTITY;
