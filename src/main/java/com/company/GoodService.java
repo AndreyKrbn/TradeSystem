@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.model.Good;
+
 import java.util.List;
 
 public interface GoodService {
