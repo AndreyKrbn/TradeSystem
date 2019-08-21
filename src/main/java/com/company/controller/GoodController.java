@@ -27,4 +27,5 @@ public class GoodController {
 
         return "goods/list";
     }
+
 }

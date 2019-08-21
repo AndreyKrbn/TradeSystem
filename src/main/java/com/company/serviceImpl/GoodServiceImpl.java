@@ -35,9 +35,9 @@ public class GoodServiceImpl implements GoodService {
         return goodRepository.save(good);
     }
 
-    @Autowired
+/*    @Autowired
     public void setGoodRepository(GoodRepository goodRepository) {
         this.goodRepository =goodRepository;
-}
+}*/
 
 }
