@@ -9,6 +9,11 @@
     </properties>
     <root id="archive" name="TradeSystem-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="TradeSystem:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
