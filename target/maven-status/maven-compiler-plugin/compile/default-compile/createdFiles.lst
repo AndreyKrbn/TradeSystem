@@ -1,5 +1,0 @@
-com\company\controller\GoodController.class
-com\company\GoodService.class
-com\company\model\Good.class
-com\company\GoodRepository.class
-com\company\serviceImpl\GoodServiceImpl.class
